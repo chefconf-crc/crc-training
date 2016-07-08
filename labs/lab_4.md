@@ -1,9 +1,9 @@
 ## Lab 4
 ## Extending Existing Cookbooks
+Allotted Time: 1 hour total
 
 In this activity, your team will be assigned a specific community cookbook and you will extend this cookbook.
 
-Allotted Time: 1 hour total
 
 1. Examine the cookbook.
 2. Read open issues.
@@ -37,9 +37,23 @@ Within your team as you examine the assigned cookbook, assess the following:
 * Is the investment (time) required to correct existing issues/extend the cookbook greater than a doing a full-rewrite?
 * Does it make sense to incrementally improve or completely rewrite the cookbook?
 
-## Outcome
+Update the file COOKBOOK.md in the assessments repo (git@github.com:chefconf-crc/assessments.git)
 
-* You will define your specific outcome!
-* A successful update to your teams assigned cookbook to the class supermarket.
+The plan should include specific information about what will be done and who will be doing it.
+
+The plan could include
+ * new or updated tests
+ * start of a new cookbook
+ * additional functionality
+ * new or updated documentation
+ * refactored code from attribute driven to resource driven, or removal of repetitious code
+
+Update the file COOKBOOK.md in the plans repo (git@github.com:chefconf-crc/plans.git).
+
+## Outcomes
+
+* Updated COOKBOOK.md in the assessments repo in chefconf-crc. git@github.com:chefconf-crc/assessments.git
+* Updated COOKBOOK.md in the plans repo in chefconf-crc organization. git@github.com:chefconf-crc/plans.git
+* A successful update to your teams assigned cookbook to the class supermarket https://supermarket.reusablechef.com/dashboard.
 
 ## TA’s are ready and willing to help you with your questions! 

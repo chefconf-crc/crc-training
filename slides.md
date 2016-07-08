@@ -210,7 +210,7 @@ Time: 10 minutes
 
 ---
 
-# Team Activity 3
+# Lab 0 - Verify 'Local Development Node'
 
 * Log into node
 * Set up git 
@@ -218,57 +218,6 @@ Time: 10 minutes
 Time: 15 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
-
----
-
-# Configuration Management
-
-* Process of identifying, managing, monitoring, and auditing a product through its entire life including the processes, documentation, people, tools, software, and systems.
-
----
-
-# Version Control
-
-* Records changes to files or sets of files stored within the system
-* Enable revisions
-* Integrity checking
-* Collaboration
-
----
-
-# Artifact Repository
-
-* Secure
-* Trusted
-* Stable
-* Accessible
-* Versioned
-
- (artifactory, nexus, yum, package.io, rubbygems)
-
----
-
-# Infrastructure
-
-* Aggregate of applications, configurations, access control, data, compute nodes, network, storage, processes, and people.
-
-
----
-
-# Infrastructure Automation
-
-* Systems that reduce the burden on people to manage services and increase the quality, accuracy and precision of a service to the consumers of a service
-
-
----
-
-# Infrastructure Automation Tools
-
-* Chef
-* Puppet
-* Ansible
-* Salt
-* CFEngine
 
 ---
 

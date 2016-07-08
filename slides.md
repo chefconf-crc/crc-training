@@ -217,8 +217,9 @@ Time: 10 minutes
 * Create GitHub identity
 * Set up GitHub keys.
 * Share team tools from Activity 2.
+* Create a sample chef cookbook
 
-Time: 15 minutes
+Time: 30 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 

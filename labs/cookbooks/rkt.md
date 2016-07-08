@@ -5,7 +5,7 @@
 
 ## Background
 
-The rkt Cookbook is a library cookbook concerned specifically with the installation and management of the rkt container platform as developed by CoreOs, Inc..
+The rkt Cookbook is a library cookbook concerned specifically with the installation and management of the rkt container platform as developed by CoreOs, Inc.. It's *important* to note that this cookbook is primarily developed on gitlab and then mirrored back to github.
 
 ## About rkt
 Rkt is an open source project for packing, shipping and running applications in compose-able containers. (Imagine Docker or LXC).

@@ -214,6 +214,9 @@ Time: 10 minutes
 
 * Log into node
 * Set up git 
+* Create GitHub identity
+* Set up GitHub keys.
+* Share team tools from Activity 2.
 
 Time: 15 minutes
 

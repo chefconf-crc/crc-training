@@ -37,4 +37,9 @@ Within your team as you examine the assigned cookbook, assess the following:
 * Is the investment (time) required to correct existing issues/extend the cookbook greater than a doing a full-rewrite?
 * Does it make sense to incrementally improve or completely rewrite the cookbook?
 
-TA’s are ready and willing to help you with your questions! 
+## Outcome
+
+* You will define your specific outcome!
+* A successful update to your teams assigned cookbook to the class supermarket.
+
+## TA’s are ready and willing to help you with your questions! 

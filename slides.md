@@ -210,16 +210,23 @@ Time: 10 minutes
 
 ---
 
-# Lab 0 - Verify 'Local Development Node'
+# [fit] Introduction to Lab 1
 
 * Log into node
 * Set up git 
 * Create GitHub identity
 * Set up GitHub keys.
 * Share team tools from Activity 2.
-* Create a sample chef cookbook
 
-Time: 30 minutes
+[Lab 1](https://github.com/iennae/crc-training/blob/master/labs/lab_1.md)
+
+![fit](images/standing_cat.png)
+
+---
+
+# Lab 1
+
+Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
@@ -394,6 +401,24 @@ Example:
 * kitchen verify
 * kitchen destroy
 * kitchen test
+
+---
+
+# [fit] Introduction to Lab 2
+
+* Create cookbook
+
+[Lab 2](https://github.com/iennae/crc-training/blob/master/labs/lab_2.md)
+
+![fit](images/standing_cat.png)
+
+---
+
+# Lab 2
+
+Time: 20 minutes
+
+![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
 ---
 

@@ -1,4 +1,5 @@
 # Translate a runbook for installing MongoDB into chef
+Allotted Time: 20 minutes
 
 In this activity your team will be creating a community cookbook from scratch.
 
@@ -55,6 +56,8 @@ translates to chef dsl as:
 
 * mongodb running on the node within a docker container
 * code checked into repository on github
+* A successful push to teamname-mongodb to the class supermarket https://supermarket.reusablechef.com/dashboard.
+
 
 ## Hint
 

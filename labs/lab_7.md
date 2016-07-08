@@ -1,12 +1,10 @@
-## Lab 5
-## Balancing Moderation while Contributing
+## Lab 7
+## Moderation and Contribution
 Allotted Time: 1 hour total
 
 In this activity, your team will be assigned a new community cookbook to review what another team did. You will decide on what your team can contribute, and issue a pull request to have your contributions added.
 
 In addition you will review another team's requests to you, and accept the pull requests or request additional information as needed.
-
-Allotted Time: 1 hour total
 
 1. Examine the cookbook.
 2. Review the previous team's assessment, plan and contributions.

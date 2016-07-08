@@ -1,3 +1,5 @@
+Allotted Time: 20 minutes
+
 ```
  cd ~/wd
  chef generate cookbook apache

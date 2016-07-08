@@ -1,4 +1,5 @@
 # Translate our MongoDB cookbook from recipes into resources
+Allotted Time: 30 minutes total
 
 ## Custom Resources 12.5 Style 
 

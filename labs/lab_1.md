@@ -1,4 +1,5 @@
 # Verify Local Environment
+Allotted Time: 20 minutes
 
 ## Overview
 

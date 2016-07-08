@@ -447,20 +447,20 @@ full featured JavaScript interpreter
 
 ---
 
-# [fit] Introduction to Lab 1
+# [fit] Introduction to Lab 3
 
 Translate a runbook for installing MongoDB into chef.
 
-[Lab 1(https://github.com/iennae/crc-training/blob/master/labs/lab_1.md)
+[Lab 3]https://github.com/iennae/crc-training/blob/master/labs/lab_3.md)
 
 ![fit](images/rainbow_cat.png)
 
 
 ---
 
-# Lab 1
+# Lab 3
 
-Time: 30 minutes
+Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 
@@ -478,17 +478,17 @@ Time: 30 minutes
 
 ---
 
-# [fit] Introduction to Lab 2
+# [fit] Introduction to Lab 4
 
 Translate our MongoDB cookbook from recipes into resources.
 
-[Lab 2](https://github.com/iennae/crc-training/blob/master/labs/lab_2.md)
+[Lab 4](https://github.com/iennae/crc-training/blob/master/labs/lab_4.md)
 
 ![fit](images/standing_cat.png)
 
 ---
 
-# Lab 2
+# Lab 4
 
 Time: 30 minutes
 
@@ -766,18 +766,18 @@ end
 
 ---
 
-# [fit] Introduction to Lab 3
+# [fit] Introduction to Lab 5
 
 Clean any rubocop and foodcritic issues reported. 
 Add tests to MongoDB cookbook.
 
-[Lab 3](https://github.com/iennae/crc-training/blob/master/labs/lab_3.md)
+[Lab 5](https://github.com/iennae/crc-training/blob/master/labs/lab_5.md)
 
 ![fit](images/standing_cat.png)
 
 ---
 
-# Lab 3
+# Lab 5
 
 Time: 30 minutes
 
@@ -785,17 +785,17 @@ Time: 30 minutes
 
 ---
 
-# [fit] Introduction to Lab 4
+# [fit] Introduction to Lab 6
 
 Extending Existing Cookbooks
 
-[Lab 4](https://github.com/iennae/crc-training/blob/master/labs/lab_4.md)
+[Lab 6](https://github.com/iennae/crc-training/blob/master/labs/lab_6.md)
 
 ![fit](images/standing_cat.png)
 
 ---
 
-# Lab 4
+# Lab 6
 
 Time: 1 hour
 

@@ -14,7 +14,8 @@ Artifactory supports full integration with nearly all CI/CD tools in the wild an
 
 
 ## Further Reading
+More information on Artifactory can be found here:
+
 * https://www.jfrog.com/artifactory/
 * https://github.com/JFrogDev/jenkins-artifactory-plugin
 * https://www.jfrog.com/support-service/whitepapers/comparing-artifactory-to-other-binary-repository-managers/
-

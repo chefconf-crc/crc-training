@@ -14,8 +14,8 @@ Nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TC
 Unlike some counterparts Nginx also provides generic proxying of TCP and UDP, SSL termination for TCP and baked in Load balancing. It does an excellent job of functioning as the web front-end or load balancer in common application architectures (LAMP, LNMP).
 
 ## Further Reading
+More information on Nginx can be found here:
 
 * http://nginx.org/en/
 * http://nginx.org/en/docs/faq.html
 * http://nginx.org/en/docs/
-

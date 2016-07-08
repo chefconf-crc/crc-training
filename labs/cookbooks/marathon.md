@@ -14,6 +14,7 @@ Marathon is an Apache Mesos framework for container orchestration that provides 
 It can be utilized to run other Mesos frameworks such as Chronos or Storm to ensure they survive machine failures. Marathon can also be used to deploy more marathon instances!
 
 ## Further Reading
+More information on Marathon can be found here:
 
 * https://mesos.apache.org
 * https://docs.mesosphere.com

@@ -14,7 +14,7 @@ Go is a modern, concurrent, open-source programming language with fast compilati
 At its heart it is an attempt to combine the ease of programming a dynamically typed language with the efficiency and memory safety of a statically type, or compiled, language.
 
 ## Further Reading
-
+More information on Go can be found here:
 * https://golang.org/doc/faq
 * https://go.googlesource.com/go
 * https://golang.org/doc/

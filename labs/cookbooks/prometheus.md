@@ -16,6 +16,7 @@ Prometheus has a rich feature­set that set it apart from other monitoring tools
 In practice Prometheus provides something important for modern infrastructure monitoring which is specifically precision alerting based upon important metrics and not simply return codes.
 
 ## Further Reading
+More information on Prometheus can be found here:
 
 * https://prometheus.io
 * https://github.com/prometheus/prometheus

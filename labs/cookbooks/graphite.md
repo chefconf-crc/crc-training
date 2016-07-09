@@ -17,6 +17,7 @@ What Graphite does not do is collect this data for you. It expects this data inj
 ## Further Reading
 More information on graphite can be found here:
 
+* http://graphiteapp.org/
 * http://graphite.readthedocs.io/en/latest/
 * https://github.com/graphite-project
 * http://graphite.readthedocs.io/en/latest/overview.html

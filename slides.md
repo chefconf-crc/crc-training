@@ -8,16 +8,24 @@ footer: __**:sparkles: @sigje :sparkles:**__
 #### Ian Henry 
 #### Jennifer Davis (remote)
 
-Network Name: 
-Access Code:  
+Network Name: ChefConf
+Access Code: ChefConf2016
 
 ---
 
-# Ian Henry
+# Instructor
+
+* Ian Henry
 
 ---
 
 # TA's
+
+* Robb Kidd
+* Matt Stratton
+* David Echols
+* Stephen Lauck
+* Bill Meyer
 
 ---
 
@@ -25,6 +33,8 @@ Access Code:
 
 * Jennifer Davis Twitter: @sigje 
 * Ian Henry Twitter: @Eeyun___
+
+Hashtag: #chefconf
 
 ---
 
@@ -37,26 +47,25 @@ Access Code:
 
 ---
 
-Network Name: 
-Access Code:  
-
----
-
 # Why are we here?
 
 ---
 
 # Expectations
 
-* Safe space to share experiences, learn from each other
-* [Code of Conduct]
-* Learn effective workflows for using and testing source control and configuration management
+* Code of Conduct
+* Safe space to share experiences, learn from each other.
+* Learn effective patterns for developing reusable cookbooks.
+
+---
+
+# Agenda
 
 ---
 
 # Collaboration
 
-> Individuals working together with shared interactions and input building towards a common goal.
+> Individuals working together with shared interactions and input, building towards a common goal.
 
 ---
 
@@ -142,14 +151,6 @@ Anita Woolley and Thomas Malone
 * Expert-novice
 * Novice-novice
 
-
-
-^ When experts pair, work gets done quickly, new innovation not always obtained, depending on skill overlap because not questioning accepted standards of doing things.
-
-^ When expert and novice pair, can be very good or very bad. if expert isn't patient and does all the typing, novice learns helplessness and slow to get anything done. if expert is patient can involve growth for both as novice helps expert to question standards.
-
-^ When novices pair, can work together to learn and achieve more than a novice working on their own. If no understanding in pair, and fire-fighting schedules can lead to poor practices implemented into production higher technical debt.
-
 ---
 
 # Team Activity 1
@@ -160,24 +161,12 @@ Anita Woolley and Thomas Malone
  * Skills? Gaps in skills?
   * git, chef, docker, continuous integration, continuous delivery
 
+If you haven't filled out the skills assessment please do now:
 http://goo.gl/forms/Pem3KqRvGbSF3Ovv2
 
 Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
-
----
-
-# Devops Tools
-
-* Establish local development environment
-* Version control
-* Manual -> Automation -> Continuous
- * Artifacts
- * Infrastructure
- * Sandbox
- * Test and Build
- * Monitoring
 
 ---
 
@@ -233,81 +222,11 @@ Time: 30 minutes
 
 ---
 
-# Quick Chef Review
-
----
-
-# Resources
-
-* Ingredients of infrastructure
-* Basic building blocks
-
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/slides_splash_resources.png)
-
-----
-
-# Resource Review
-
-
-```ruby
-RESOURCETYPE "RESOURCE_NAME" do
-  PARAMETER PARAMETER_VALUE
-end
-```
-
----
-
-# Resources
-
-A resource is a statement of policy that:
-
-* Describes the desired state for an element
-* Specifies a resource type---such as ``package``, ``template``, or ``service``
-* Lists additional details (also known as parameters), as necessary
-* Are grouped into recipes
-
----
-
-# Recipes
-
-* Collection of ordered resources
-* Combination of ruby and Chef DSL
-
----
-
-# Cookbooks
-
-* Thematic
-* Collection of recipes and other supporting files
-
----
-
-# Run List
-
-* Ordered list of recipes and roles
-* Specific to a node
-
----
-
-# Nodes
-
-* Machine (virtual, physical, cloud server, or other device) that is managed by Chef
-
----
-
-# Environments
-
-* Abstraction models workflow
-* Name
-* Description
-* Cookbook version pinning
-
----
-
 # Supermarket
 
 * Community site with a number of cookbooks
-* Read before using in your environment
+
+Class Supermarket: https://supermarket.reusablechef.com
 
 ---
 
@@ -329,15 +248,8 @@ A resource is a statement of policy that:
 # Test Kitchen
 
 * Included with Chef DK
-* Sandbox automation
 * Test harness
-
----
-
-# Test Kitchen
-
-* Execute code on one or more platforms
-* Driver plugins supporting various cloud and virtualization providers
+* Sandbox automation
 
 ---
 
@@ -385,23 +297,6 @@ Example:
    - recipe[apache::default]
    attributes:
 ```
-
----
-
-# Kitchen commands (1/2)
-
-* kitchen init
-* kitchen list
-* kitchen create
-* kitchen converge
-
----
-
-# Kitchen commands (2/2)
-
-* kitchen verify
-* kitchen destroy
-* kitchen test
 
 ---
 
@@ -464,6 +359,39 @@ Translate a runbook for installing MongoDB into chef.
 Time: 20 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+
+---
+
+# Quality Cookbooks
+
+---
+
+# Iterative
+
+---
+
+# Issue Management
+
+* Should be clear where to file bugs, request features.
+* Should be regularly groomed
+
+---
+
+# Clear and Specific Licensing
+
+For reusable cookbooks across the community
+
+* Apache 2.0
+* GNU Public License 2.0
+* GNU Public License 3.0
+* MIT
+
+---
+
+# Multiple Collaborators
+
+* More than 1 person with the ability to release new cookbooks
+* More than 1 person with ability to merge pull requests
 
 ---
 

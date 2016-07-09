@@ -1,9 +1,10 @@
-# Verify Local Environment
-Allotted Time: 20 minutes
+## Lab 1
+## Verify Local Environment
+Allotted Time: 30 minutes
 
 ## Overview
 
-In this exercise each participant configures and tests a local development environment.
+In this exercise each participant configures and tests a local development environment and registers for the Chef Community Slack.
 
 ## Connect to Node (Everyone)
 
@@ -136,4 +137,18 @@ To git@github.com:sparklydevops/tools.git
 ![Commiting to my branch](images/lab_0_fork.png "GUI shows availability to click on pull request.")
 ![Creating a pull request](images/lab_0_pull_request.png "Leave a comment and create pull request")
 
+## Join the Chef Community Slack
 
+Follow the instructions on the [Community Slack Page](http://community-slack.chef.io/) and then sign in to the Chef Community Slack. Join channel #chefconf-crc. You can either use Slack from a web browser or from the app. 
+
+Questions? You can ping the Chef Staff support on Slack at:
+
+* sigje
+* 
+
+
+## Outcomes
+
+* You will have logged into your node and configured git.
+* You will have updated the tools that your team uses and created a pull request. 
+* You will have signed up for the Chef Community Slack.

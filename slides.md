@@ -5,7 +5,8 @@ footer: __**:sparkles: @sigje :sparkles:**__
 =======
 
 # [fit] Crafting Reusable Cookbooks
-#### Jennifer Davis 
+#### Ian Henry 
+#### Jennifer Davis (remote)
 
 Network Name: 
 Access Code:  
@@ -212,11 +213,11 @@ Time: 10 minutes
 
 # [fit] Introduction to Lab 1
 
-* Log into node
-* Set up git 
-* Create GitHub identity
+* Log into node and configure git
+* Create GitHub identity if you don't have one already.
 * Set up GitHub keys.
 * Share team tools from Activity 2.
+* Create and login to account on Chef Community Slack.
 
 [Lab 1](https://github.com/iennae/crc-training/blob/master/labs/lab_1.md)
 
@@ -226,7 +227,7 @@ Time: 10 minutes
 
 # Lab 1
 
-Time: 20 minutes
+Time: 30 minutes
 
 ![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
 

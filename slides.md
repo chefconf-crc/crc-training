@@ -76,7 +76,7 @@ Hashtag: #chefconf
 * Monitoring burnout
 
 
-![](/Users/jenniferdavis/images/14283534363_a2db2d3345_k.jpg)
+![](images/14283534363_a2db2d3345_k.jpg)
 
 [^3]: CC Image courtesy of Spoons by Jacqui Brown on Flickr
 
@@ -86,7 +86,7 @@ Hashtag: #chefconf
 ## build better value
 
 
-![](/Users/jenniferdavis/images/25392512853_3462461c21_k.jpg)
+![](images/25392512853_3462461c21_k.jpg)
 
 [^2]: CC Image courtesy of WOCinTech Chat by wocintech on Flickr
 
@@ -166,7 +166,7 @@ http://goo.gl/forms/Pem3KqRvGbSF3Ovv2
 
 Time: 20 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -185,7 +185,7 @@ Time: 20 minutes
 
 Time: 10 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -218,7 +218,7 @@ Time: 10 minutes
 
 Time: 30 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -314,7 +314,7 @@ Example:
 
 Time: 20 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -358,7 +358,7 @@ Translate a runbook for installing MongoDB into chef.
 
 Time: 20 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -421,7 +421,7 @@ Translate our MongoDB cookbook from recipes into resources.
 
 Time: 30 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -710,7 +710,7 @@ Add tests to MongoDB cookbook.
 
 Time: 30 minutes
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 ---
 
@@ -728,6 +728,6 @@ Extending Existing Cookbooks
 
 Time: 1 hour
 
-![fit](https://raw.githubusercontent.com/kdaniels/effective-devops/master/images/timer.png)
+![fit](images/timer.png)
 
 

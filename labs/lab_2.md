@@ -109,3 +109,5 @@ curl localhost
 * Use chef generate command to create a cookbook.
 * Understand basic kitchen configuration.
 * Successfully running Apache on your node.
+
+\pagebreak

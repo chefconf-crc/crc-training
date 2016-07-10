@@ -1,4 +1,5 @@
-# Maintainable Chef
+## Lab 5
+## Maintainable Chef
 Allotted Time: 30 minutes total
 
 1. Identify who will do what on the team and pair as needed.
@@ -45,3 +46,5 @@ https://github.com/chef/inspec
 * Integration test added to cookbook.
 * cookbook committed to github
 * A successful update to your teams assigned cookbook to the class supermarket https://supermarket.reusablechef.com/dashboard.
+
+\pagebreak

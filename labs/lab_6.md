@@ -1,4 +1,4 @@
-## Lab 4
+## Lab 6
 ## Extending Existing Cookbooks
 Allotted Time: 1 hour total
 
@@ -57,3 +57,5 @@ Update the file COOKBOOK.md in the plans repo (git@github.com:chefconf-crc/plans
 * A successful update to your teams assigned cookbook to the class supermarket https://supermarket.reusablechef.com/dashboard.
 
 ## TA’s are ready and willing to help you with your questions! 
+
+\pagebreak

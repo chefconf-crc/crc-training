@@ -1,4 +1,5 @@
-# Translate our MongoDB cookbook from recipes into resources
+## Lab 4
+## Translate our MongoDB cookbook from recipes into resources
 Allotted Time: 30 minutes total
 
 In this activity your team will be updating your teamname-mongodb community cookbook to use custom resources.
@@ -82,3 +83,5 @@ end
 * simplified recipe in cookbook
 * updated cookbook to the class supermarket
 * cookbook committed to github
+
+\pagebreak

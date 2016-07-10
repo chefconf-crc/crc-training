@@ -1,4 +1,5 @@
-# Translate a runbook for installing MongoDB into chef
+## Lab 3
+## Translate a runbook for installing MongoDB into chef
 Allotted Time: 20 minutes
 
 In this activity your team will be creating a community cookbook from scratch.
@@ -113,3 +114,5 @@ https://supermarket.reusablechef.com
 
 * If you need further hints, you can check out this [working example](https://github.com/nathenharvey/install_mongo)  https://github.com/nathenharvey/install_mongo of minimal requirements to install mongodb.
 * Be aware that mongodb attempts to change ulimits in the init file which won't work in a docker container. So a second converge will fail!
+
+\pagebreak

@@ -155,3 +155,5 @@ Questions? You can ping the Chef Staff support on Slack at:
 * You will have logged into your node and configured git.
 * You will have updated the tools that your team uses and created a pull request. 
 * You will have signed up for the Chef Community Slack.
+
+\pagebreak

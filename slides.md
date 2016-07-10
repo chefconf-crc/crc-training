@@ -1,5 +1,5 @@
 slidenumbers: true
-footer: __**:sparkles: @sigje :sparkles:**__
+footer: __**:sparkles: Crafting Reusable Cookbooks #chefconf:sparkles:**__
 <!-- theme: "Letters from Sweden" white -->
 
 =======
@@ -395,9 +395,10 @@ For reusable cookbooks across the community
 
 ---
 
-# Integration Tests
+# Test Everything
 
-* Assert the state of the converged node to ensure it's in the desired state
+* Use integration tests
+ * Assert the state of the converged node to ensure it's in the desired state
 
 ---
 
@@ -430,6 +431,10 @@ For reusable cookbooks across the community
 
 ---
 
+# No duplication of code
+
+---
+
 # Valid kitchen configuration
 
 * Ability for others to replicate and test cookbook easily
@@ -439,6 +444,7 @@ For reusable cookbooks across the community
 # Custom Resources over Attributes
 
 * Attribute driven 
+* Resources
 
 ---
 
@@ -448,15 +454,27 @@ Example: https://github.com/chef-cookbooks/tomcat/blob/master/libraries/matchers
 
 ---
 
+# Build Cookbooks for Wrapping
+
+--- 
+
+# Support the 95% use case 
+
+---
+
 # History of Customizing Chef
 
 * Attributes
 * Definitions
 * LWRP and HWRP
+* Custom Resources
 
 ---
 
-# Introducing Custom Resources 
+# Custom Resources 
+
+* As of 12.5
+* compat_resource to bring custom resources to 12+
 
 ---
 
@@ -750,6 +768,7 @@ end
 
 # [fit] Introduction to Lab 5
 
+Add Ubuntu platform to the mongodb cookbook.
 Clean any rubocop and foodcritic issues reported. 
 Add tests to MongoDB cookbook.
 
@@ -764,6 +783,43 @@ Add tests to MongoDB cookbook.
 Time: 30 minutes
 
 ![fit](images/timer.png)
+
+---
+
+# Community Cookbooks
+
+Community driven. 
+ * Some managed by Chef. https://github.com/chef-cookbooks
+ * Some partner managed.
+
+---
+
+# CI/CD
+
+---
+
+# Travis 
+
+* free (for Open Source projects)
+* build files available
+
+---
+
+# Chef Managed Community Cookbooks CI
+
+* cookstyle (included with chef dk) https://github.com/chef/cookstyle
+ * allows for consistent rubocop testing across cookbooks
+* use travis
+
+---
+
+# Travis Sample 
+
+* [Tomcat Travis configuration](https://github.com/chef-cookbooks/tomcat/blob/master/.travis.yml)
+ * sudo: required (required when using docker with travis)
+ * limits branch to master
+ * matrix set of platforms to test
+ * script tests to be run
 
 ---
 

@@ -395,6 +395,59 @@ For reusable cookbooks across the community
 
 ---
 
+# Integration Tests
+
+* Assert the state of the converged node to ensure it's in the desired state
+
+---
+
+# Foodcritic and Rubocop
+
+* Chef and Ruby linters pass cleanly
+
+---
+
+# Multiple Platforms
+
+* As applicable, supports multiple platforms 
+
+---
+
+# Documentation
+
+* Clear and specific
+* Includes contributing guidelines
+
+---
+
+# No binaries
+
+* Binaries should be stored in signed artifact repositories separate from the cookbook
+
+---
+
+# Existence of a test cookbook
+
+---
+
+# Valid kitchen configuration
+
+* Ability for others to replicate and test cookbook easily
+
+---
+
+# Custom Resources over Attributes
+
+* Attribute driven 
+
+---
+
+# Custom Matchers when using Custom Resources
+
+Example: https://github.com/chef-cookbooks/tomcat/blob/master/libraries/matchers.rb
+
+---
+
 # History of Customizing Chef
 
 * Attributes
@@ -729,5 +782,29 @@ Extending Existing Cookbooks
 Time: 1 hour
 
 ![fit](images/timer.png)
+
+--- 
+
+
+# [fit] Introduction to Lab 7
+
+
+[Lab 7](https://github.com/iennae/crc-training/blob/master/labs/lab_7.md)
+
+![fit](images/standing_cat.png)
+
+---
+
+# Lab 7
+
+Time: 1 hour
+
+![fit](images/timer.png)
+
+--- 
+
+# Review
+
+
 
 

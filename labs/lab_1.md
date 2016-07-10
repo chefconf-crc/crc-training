@@ -62,6 +62,9 @@ Example:
 $ git config --global core.editor nano
 ```
 
+## Add any additional desired git aliases (Optional)
+
+
 ## Verify the configuration (Everyone)
 
 ```

@@ -1,6 +1,14 @@
 # Translate our MongoDB cookbook from recipes into resources
 Allotted Time: 30 minutes total
 
+In this activity your team will be updating your teamname-mongodb community cookbook to use custom resources.
+
+1. Identify who will do what on the team and pair as needed.
+2. Create a custom resource for installing mongodb.
+3. Update documentation for teamname-mongodb.
+4. Commit teamname-mongodb to github repo.
+5. Upload teamname-mongodb cookbook to the class supermarket https://supermarket.reusablechef.com/dashboard.
+
 ## Custom Resources 12.5 Style 
 
 * simple extension of Chef
@@ -68,7 +76,9 @@ end
 
 [Walk-through of creating custom resources.](https://docs.chef.io/decks/custom_resources.html)
 
-## Outcome 
+## Outcomes 
 
 * custom resource file in resources directory of cookbook
 * simplified recipe in cookbook
+* updated cookbook to the class supermarket
+* cookbook committed to github

@@ -9,8 +9,6 @@ Create cookbook and an install_apache recipe.
 ```
  cd ~/wd
  chef generate cookbook apache
- git add apache
- git commit -m "creation of apache cookbook"
  cd apache
  chef generate recipe . install_apache
  vi recipes/install_apache.rb
@@ -47,37 +45,30 @@ Create a `.kitchen.docker.yml` to match the following configuration.
 
 
 ```
-
- $ vi .kitchen.docker.yml
-
-
+---
 driver:
-  name: dokken
-  chef_version: latest
-  privileged: true # because Docker and SystemD/Upstart
-
-network:
-    - ["forwarded_port", {guest: 80, host: 80}]
-
-transport:
-  name: dokken
+  name: docker
 
 provisioner:
-  name: dokken
+  name: chef_zero
 
-verifier:
-  name: inspec
-  format: doc
+# Uncomment the following verifier to leverage Inspec instead of Busser (the
+# default verifier)
+# verifier:
+#   name: inspec
+#   format: doc
 
 platforms:
+  - name: centos-6.5
+    driver_config:
+      forward:
+      - 80:80
 
-- name: centos-6
-  driver:
-    image: centos:6
-    platform: rhel
-    pid_one_command: /sbin/init
-    intermediate_instructions:
-      - RUN yum -y install which initscripts
+suites:
+  - name: default
+    run_list:
+      - recipe[apache::default]
+    attributes:
 
 
 ```
@@ -87,6 +78,19 @@ Update which configuration kitchen uses by setting the *KITCHEN_LOCAL_YAML* file
 
 ```
 $ export KITCHEN_LOCAL_YAML=.kitchen.docker.yml
+$ kitchen list
+```
+
+Verify that you see 1 instance with a driver Docker.
+
+```
+Instance           Driver  Provisioner  Verifier  Transport  Last Action
+default-centos-65  Docker  ChefZero     Busser    Ssh        <Not Created>
+```
+
+Create, and converge the node and login. 
+
+```
 $ kitchen converge 
 $ kitchen login
 ```

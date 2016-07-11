@@ -2,6 +2,8 @@
 ## Translate our MongoDB cookbook from recipes into resources
 Allotted Time: 30 minutes total
 
+[Custom Resource documentation](https://docs.chef.io/custom_resources.html)
+
 In this activity your team will be updating your teamname-mongodb community cookbook to use custom resources.
 
 1. Identify who will do what on the team and pair as needed.
